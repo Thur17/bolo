@@ -1,18 +1,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
+
 .header-container{
-    height: 100vh;
+	height: 100vh;
     width: 100vw;
 	background-image: url( https://fv9-6.failiem.lv/thumb_show.php?i=pfc67ytgh&view );
 	background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background-position: center, flex;
+    background-size: contain, flex;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     box-sizing:border-box;
-    padding: 0 100px;
+    padding: 50px, 0px;
     position:relative;
 }
 
@@ -57,11 +59,44 @@
 position:relative; top:1px;
 }
 
-div.a
-{
-text-align: center;
+div.a{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;	    
 }
 
-h1{
+h1{ 
+	margin-left: 18rem;
+	margin-right: 15rem;
+   font-size: 15px;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   color: #64308a;
+}	 
 
-}	        
+@media (max-width: 1024px){
+    .instagram-wrapper{
+        width: 90%;
+    }
+}
+@media (max-width: 650px){
+    bady{
+        background-color: #ffff;
+    }
+
+    .instagram-wrapper{
+        width: 90%;
+    }
+    
+    .instagram-phone{
+        display: none;
+    }
+
+    .instagram-continue{
+        width: 100px;
+    }
+    .group{
+        border: 1px solid;
+    }
+}
