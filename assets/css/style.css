@@ -93,6 +93,19 @@ figure.foto  {
 	border: 8px solid #bc80ea;
 }
 
+figure.loja  {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 600px;
+	height:450px;
+	border-radius: 20px 10px; 
+	border: 8px solid #bc80ea;
+}
+
+
+
 footer {
 	width: 100%;
 	background-color: #bc80ea;
