@@ -67,13 +67,42 @@ div.a{
 }
 
 h1{ 
-	margin-left: 18rem;
-	margin-right: 15rem;
+	margin-left: 20rem;
+	margin-right: 20rem;
    font-size: 15px;
    text-transform: uppercase;
    letter-spacing: 4px;
    color: #64308a;
 }	 
+
+h2{ 
+   font-size: 20px;
+   text-transform: uppercase;
+   letter-spacing: 6px;
+   color: #64308a;
+}	
+
+.container {
+	display: flex
+	}
+
+figure.foto  {
+	width: 200px;
+	height: 200px;
+	border-radius: 20px 10px; 
+	border: 8px solid #bc80ea;
+}
+
+footer {
+	width: 100%;
+	background-color: #bc80ea;
+	padding: 16px;
+	color: #ffffff;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	font-weight: 400;
+}
 
 @media (max-width: 1024px){
     .instagram-wrapper{
