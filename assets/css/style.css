@@ -18,6 +18,21 @@
     position:relative;
 }
 
+body {
+	background-color: #e5e8e8;
+	color: #4e545c;
+	margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
 
 .myButton {
 	-moz-box-shadow:inset 0px 1px 0px 0px #efdcfb;
@@ -117,28 +132,23 @@ footer {
 	font-weight: 400;
 }
 
-@media (max-width: 1024px){
-    .instagram-wrapper{
-        width: 90%;
+@media screen and (min-width: 640px){
+    body {
+       display: grid;
+       grid-template-columns: 1fr;
     }
 }
-@media (max-width: 650px){
-    bady{
-        background-color: #ffff;
-    }
 
-    .instagram-wrapper{
-        width: 90%;
-    }
-    
-    .instagram-phone{
-        display: none;
-    }
+@media screen and (min-width: 768px){
+     body {
+        display: grid;
+        grid-template-columns: 1fr;
+     }
+}
 
-    .instagram-continue{
-        width: 100px;
-    }
-    .group{
-        border: 1px solid;
+@media screen and (min-width: 960px){
+    body {
+       display: grid;
+       grid-template-columns: 1fr;
     }
 }
